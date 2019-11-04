@@ -20,7 +20,8 @@ public class Calculator {
      * @param secondParam second parameter to multiply.
      * @return the multiplication of a and b.
      */
-    public static final int multiplication(final int firstParam, final int secondParam) {
+    public static final int multiplication(final int firstParam,
+            final int secondParam) {
         return firstParam * secondParam;
     }
     /**
@@ -29,7 +30,8 @@ public class Calculator {
      * @param secondParam second parameter to divide.
      * @return the division of a and b.
      */
-    public static final float divide(final int firstParam, final int secondParam) {
+    public static final float divide(final int firstParam,
+            final int secondParam) {
         float result;
         if (secondParam != 0) {
             result = firstParam / secondParam;
@@ -44,7 +46,8 @@ public class Calculator {
      * @param secondParam second parameter to substract.
      * @return the sum of a and b.
      */
-    public static final int sub(final int firstParam, final int secondParam) {
+    public static final int sub(final int firstParam,
+            final int secondParam) {
         return firstParam - secondParam;
     }
 }
