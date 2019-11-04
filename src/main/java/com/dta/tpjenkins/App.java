@@ -1,6 +1,6 @@
 package com.dta.tpjenkins;
 /**
- * idk what it means lol.
+ *
  * @author PC
  *
  */
