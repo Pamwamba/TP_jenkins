@@ -1,9 +1,8 @@
 package com.dta.tpjenkins;
 
-public class App
-{
-    public static void main( String[] args )
-    {
+public class App {
+
+    public static void main(final String[] args) {
         run();
     }
 
