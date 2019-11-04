@@ -7,45 +7,44 @@ package com.dta.tpjenkins;
 public class Calculator {
     /**
      * sum of two numbers.
-     * @param a first parameter to addition.
-     * @param b second parameter to addition.
+     * @param firstParam first parameter to addition.
+     * @param secondParam second parameter to addition.
      * @return the sum of (a + b).
      */
-    public static final int sum(final int a, final int b) {
-        int result = (a + b);
-        return result;
+    public static final int sum(final int firstParam, final int secondParam) {
+        return firstParam + secondParam;
     }
     /**
      * multiplication of two numbers.
-     * @param a first parameter to multiply.
-     * @param b second parameter to multiply.
+     * @param firstParam first parameter to multiply.
+     * @param secondParam second parameter to multiply.
      * @return the multiplication of a and b.
      */
-    public static final int multiplication(final int a, final int b) {
-        int result = (a * b);
-        return result;
+    public static final int multiplication(final int firstParam, final int secondParam) {
+        return firstParam * secondParam;
     }
     /**
      * division of two numbers.
-     * @param a first parameter to divide.
-     * @param b second parameter to divide.
+     * @param firstParam first parameter to divide.
+     * @param secondParam second parameter to divide.
      * @return the division of a and b.
      */
-    public static final float divide(final int a, final int b) {
-        float result = 0;
-        if (b != 0) {
-            result = (a / b);
+    public static final float divide(final int firstParam, final int secondParam) {
+        float result;
+        if (secondParam != 0) {
+            result = firstParam / secondParam;
+        } else {
+            result = 0;
         }
         return result;
     }
     /**
      * substraction of two numbers.
-     * @param a first parameter to substract.
-     * @param b second parameter to substract.
+     * @param firstParam first parameter to substract.
+     * @param secondParam second parameter to substract.
      * @return the sum of a and b.
      */
-    public static final int sub(final int a, final int b) {
-        int result = (a - b);
-        return result;
+    public static final int sub(final int firstParam, final int secondParam) {
+        return firstParam - secondParam;
     }
 }
